@@ -40,7 +40,7 @@ const Wireframes = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-display font-bold mb-6">
-            <span className="disambi-gradient-text">Platform Wireframes</span>
+            <span className="disambi-gradient-text">Figma Wireframes</span>
           </h2>
           <p className="text-white/80 text-lg max-w-2xl mx-auto">
             A glimpse into our user experience — connecting creators and brands through thoughtful design.
@@ -75,7 +75,7 @@ const Wireframes = () => {
                     <h3 className="text-xl font-display font-medium mb-1 group-hover:disambi-gradient-text">
                       {wireframe.title}
                     </h3>
-                    <p className="text-white/70 text-sm mb-4">{wireframe.description}</p>
+                    <p className="text-white/80 text-sm mb-4">{wireframe.description}</p>
                     <div className="flex items-center text-disambi-orange/80 text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity">
                       <span>Learn more</span>
                       <ArrowRight size={16} className="ml-1" />
